@@ -1,23 +1,24 @@
 7.5 inch E-Paper Display from seengreat:www.seengreat.com
  =======================================
 # Introduction  
-![image](https://github.com/seengreat/7.5-inch-E-Paper-Display/blob/main/01.png )<br>      
+![image](https://github.com/seengreat/7.5-inch-E-Paper-Display/blob/main/01.png )<br>   
+   
 ## 1.1 Product Overview
 This product is a 7.5-inch black-and-white e-ink display expansion module with a screen resolution of 800x480. It uses SPI communication and supports both full and partial refresh modes. The driver board is designed based on the 40-pin interface of Raspberry Pi, making it compatible with Raspberry Pi series boards. We provide example programs in C and Python for Raspberry Pi. A reserved SPI control interface allows easy integration with main control boards such as Arduino, STM32, and ESP32. We also offer example code for Arduino, STM32, and ESP32, which supports displaying images, English and numerical characters, and drawing points, lines, rectangles, and circles.<br>
 ## 1.2 Product Specifications
-｜Pixels	｜800 x 480｜
-|----------------------|------------------------------------|
-|Display Colors	|Monochrome (Black and White)｜
-|Gray Levels	|2｜
-|Level-Shifting Chip	|TXS0108EPWR｜
-|Signal Interface	|SPI｜
-|Power Supply Voltage	|3.3V/5V｜
-|Display Area	|163.2mm x 97.9mm｜
-|Partial Refresh       |0.3s (4-wire SPI mode)｜
-|Full Refresh	|3s (4-wire SPI mode)｜
+|Pixels	|800 x 480|
+|-----------|----------|
+|Display Colors	|Monochrome (Black and White)|
+|Gray Levels	|2|
+|Level-Shifting Chip	|TXS0108EPWR|
+|Signal Interface	|SPI|
+|Power Supply Voltage	|3.3V/5V|
+|Display Area	|163.2mm x 97.9mm|
+|Partial Refresh|0.3s (4-wire SPI mode)|
+|Full Refresh	|3s (4-wire SPI mode)|
 
 ## 1.3 Interface Definition
-|VCC	3.3V/5V|
+|VCC	|3.3V/5V|
 |----------------------|------------------------------------|
 |GND	|Power ground|
 |RST	|External reset pin (low level reset)|
@@ -54,7 +55,7 @@ The example code for the Raspberry Pi platform is divided into two versions: lgp
 The example programs for the Raspberry Pi board use the BCM numbering for pin definitions with the lgpio library and the wiringpi numbering with the wiringpi library. The pin wiring definitions for the Raspberry Pi board are as shown in the table below:<br>
 |E-paper Interface (E-paper Connector)	|Pin Function	|BCM Numbering	|wiringpi Numbering|
 |----------------------|------------------------------------|------------------------------|
-|VCC	|3.3V       ｜           ｜		
+|VCC	|3.3V       |           |		
 |GND	|GND	|	|
 |BUSY	|Busy Signal Pin	|24|	5|
 |RSTN	|Reset	|17	|0|
@@ -148,8 +149,9 @@ Table 2-2 shows the wiring definitions between the Arduino Mega and the e-paper 
 |MOSI|	D51|
 |DC|	D8|
 |RST|	D9|
-|BUSY|	D10|
+|BUSY|	D10|<br>
 Table 2-2 E-paper Display and Arduino Mega Pin Definitions<br>
+<br>
 Table 2-3 E-paper Display and Arduino UNO Pin Definitions<br>
 |E-paper Interface	|Arduino UNO|
 |----------------------|----------------|
@@ -160,8 +162,9 @@ Table 2-3 E-paper Display and Arduino UNO Pin Definitions<br>
 |MOSI	|D11|
 |DC	|D10|
 |RST	|D9|
-|BUSY	|D8|
+|BUSY	|D8|<br>
 Table 2-3 E-paper Display and Arduino UNO Pin Definitions<br>
+
 ### 2.3.2 Example Usage
 Open the project file /demo codes/Arduino_MEGA/Arduino_MEGA.ino or /demo codes/Arduino_UNO/Arduino_UNO.ino in the Arduino IDE. Select the correct Board and Port based on your setup. Click Verify, and once the verification is successful, upload it to the module. Observe the e-paper display.<br>
 ## 2.4 STM32 Example Usage
