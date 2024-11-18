@@ -54,19 +54,19 @@ The example code for the Raspberry Pi platform is divided into two versions: lgp
 
 The example programs for the Raspberry Pi board use the BCM numbering for pin definitions with the lgpio library and the wiringpi numbering with the wiringpi library. The pin wiring definitions for the Raspberry Pi board are as shown in the table below:<br>
 |E-paper Interface (E-paper Connector)	|Pin Function	|BCM Numbering	|wiringpi Numbering|
-|----------------------|------------------------------------|------------------------------|
-|VCC	|3.3V       |           |		
-|GND	|GND	|	|
+|----------------------|------------------------------------|------------------------------|-------------------------|
+|VCC	|3.3V	|	|	|		
+|GND	|GND	|	|	|
 |BUSY	|Busy Signal Pin	|24|	5|
-|RSTN	|Reset	|17	|0|
+|RSTN	|Reset	|17	|0	|
 |D/C	|Command/Data Select	|25|	6|
 |SDA	|SPI Data Out/Slave In	|10|	12|
-|SCL	|SPI Clock	11|	14|
-|CSB	|SPI Chip Select	8|	10|
-|	|LED1	|4|	7|
-|	|LED2	|18|	1|
-|	|K1	|27|	2|
-|	|K2	|22|	3|
+|SCL	|SPI Clock		|	11|	14|
+|CSB	|SPI Chip Select	|	8|	10|
+|	|LED1		|	4|	7|
+|	|LED2		|	18|	1|
+|	|K1		|	27|	2|
+|	|K2		|	22|	3|<br>
          Table 2-1 Driver Board and Raspberry Pi Pin Definitions<br>
 ### 2.2.2  wiringpi Library Installation
 ```sudo apt-get install wiringpi```<br>
@@ -150,6 +150,7 @@ Table 2-2 shows the wiring definitions between the Arduino Mega and the e-paper 
 |DC|	D8|
 |RST|	D9|
 |BUSY|	D10|<br>
+
 Table 2-2 E-paper Display and Arduino Mega Pin Definitions<br>
 <br>
 Table 2-3 E-paper Display and Arduino UNO Pin Definitions<br>
@@ -163,6 +164,7 @@ Table 2-3 E-paper Display and Arduino UNO Pin Definitions<br>
 |DC	|D10|
 |RST	|D9|
 |BUSY	|D8|<br>
+
 Table 2-3 E-paper Display and Arduino UNO Pin Definitions<br>
 
 ### 2.3.2 Example Usage
