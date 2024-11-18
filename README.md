@@ -185,10 +185,9 @@ The example code is based on STM32F103C8T6.<br>
 <br>
 ### 2.4.2 Example Usage
 Open the example in the directory /demo codes/STM32 using Keil uVision5 software. After compiling without errors, download it to the module and observe the e-paper display.<br>
-<br>
 ## 2.5 ESP32 Example Usage
 The example program uses the ESP32 module ESP32-WROOM-32E.<br>
-### 2.5.1 Hardware Interface Configuration<br>
+### 2.5.1 Hardware Interface Configuration
 |E-paper Interface	|ESP32 Interface|
 |----------------------|----------------|
 |VCC	|3.3V|
