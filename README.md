@@ -151,9 +151,8 @@ Table 2-2 shows the wiring definitions between the Arduino Mega and the e-paper 
 |DC|	D8|
 |RST|	D9|
 |BUSY|	D10|<br>
+Table 2-2 E-paper Display and Arduino UNO Pin Definitions<br><br>
 
-<br>
-Table 2-3 E-paper Display and Arduino UNO Pin Definitions<br>
 |E-paper Interface	|Arduino UNO|
 |----------------------|----------------|
 |VCC	|5V|
@@ -164,10 +163,10 @@ Table 2-3 E-paper Display and Arduino UNO Pin Definitions<br>
 |DC	|D10|
 |RST	|D9|
 |BUSY	|D8|<br>
-
-<br>
+Table 2-3 E-paper Display and Arduino UNO Pin Definitions<br>
 ### 2.3.2 Example Usage
 Open the project file /demo codes/Arduino_MEGA/Arduino_MEGA.ino or /demo codes/Arduino_UNO/Arduino_UNO.ino in the Arduino IDE. Select the correct Board and Port based on your setup. Click Verify, and once the verification is successful, upload it to the module. Observe the e-paper display.<br>
+<br>
 ## 2.4 STM32 Example Usage
 The example code is based on STM32F103C8T6.<br>
 ### 2.4.1 Hardware Interface Configuration
@@ -181,8 +180,10 @@ The example code is based on STM32F103C8T6.<br>
 |DC	|PA8|
 |RST	|PA11|
 |BUSY	|PA12|
+<br>
 ### 2.4.2 Example Usage
 Open the example in the directory /demo codes/STM32 using Keil uVision5 software. After compiling without errors, download it to the module and observe the e-paper display.<br>
+<br>
 ## 2.5 ESP32 Example Usage
 The example program uses the ESP32 module ESP32-WROOM-32E.<br>
 ### 2.5.1 Hardware Interface Configuration
@@ -196,6 +197,7 @@ The example program uses the ESP32 module ESP32-WROOM-32E.<br>
 |DC	|IO14|
 |RST	|IO33|
 |BUSY	|IO13|
+<br>
 ### 2.5.2 Example Usage
 Open the project file /demo codes/Arduino_ESP32 using the Arduino IDE. Select the correct Board and Port based on your setup. Click Verify, and once the verification is successful, upload it to the module and observe the e-paper display.
 ## 2.6、Image Creation and Mode Extraction<br>
