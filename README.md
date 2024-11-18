@@ -165,7 +165,7 @@ Table 2-3 E-paper Display and Arduino UNO Pin Definitions<br>
 |RST	|D9|
 |BUSY	|D8|<br>
 
-
+<br>
 ### 2.3.2 Example Usage
 Open the project file /demo codes/Arduino_MEGA/Arduino_MEGA.ino or /demo codes/Arduino_UNO/Arduino_UNO.ino in the Arduino IDE. Select the correct Board and Port based on your setup. Click Verify, and once the verification is successful, upload it to the module. Observe the e-paper display.<br>
 ## 2.4 STM32 Example Usage
