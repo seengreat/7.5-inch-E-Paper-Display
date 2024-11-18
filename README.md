@@ -67,7 +67,8 @@ The example programs for the Raspberry Pi board use the BCM numbering for pin de
 |	|LED2		|	18|	1|
 |	|K1		|	27|	2|
 |	|K2		|	22|	3|<br>
-         Table 2-1 Driver Board and Raspberry Pi Pin Definitions<br>
+
+	Table 2-1 Driver Board and Raspberry Pi Pin Definitions<br>
 ### 2.2.2  wiringpi Library Installation
 ```sudo apt-get install wiringpi```<br>
 
@@ -151,7 +152,6 @@ Table 2-2 shows the wiring definitions between the Arduino Mega and the e-paper 
 |RST|	D9|
 |BUSY|	D10|<br>
 
-Table 2-2 E-paper Display and Arduino Mega Pin Definitions<br>
 <br>
 Table 2-3 E-paper Display and Arduino UNO Pin Definitions<br>
 |E-paper Interface	|Arduino UNO|
@@ -165,7 +165,6 @@ Table 2-3 E-paper Display and Arduino UNO Pin Definitions<br>
 |RST	|D9|
 |BUSY	|D8|<br>
 
-Table 2-3 E-paper Display and Arduino UNO Pin Definitions<br>
 
 ### 2.3.2 Example Usage
 Open the project file /demo codes/Arduino_MEGA/Arduino_MEGA.ino or /demo codes/Arduino_UNO/Arduino_UNO.ino in the Arduino IDE. Select the correct Board and Port based on your setup. Click Verify, and once the verification is successful, upload it to the module. Observe the e-paper display.<br>
@@ -216,10 +215,7 @@ You can use the image2lcd software for mode extraction. This software is provide
 9  Finally, replace the corresponding array in the example program code with the array from the ".c" file.<br>
 ![image](https://github.com/seengreat/7.5-inch-E-Paper-Display/blob/main/04.png )<br> 
 
-
-
-
-                               Image 2-2<br>
+Image 2-2<br>
 
 __Thank you for choosing the products of Shengui Technology Co.,Ltd. For more details about this product, please visit:
 www.seengreat.com__
