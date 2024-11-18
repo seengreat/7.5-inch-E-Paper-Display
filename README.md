@@ -151,6 +151,7 @@ Table 2-2 shows the wiring definitions between the Arduino Mega and the e-paper 
 |DC|	D8|
 |RST|	D9|
 |BUSY|	D10|<br>
+
 Table 2-2 E-paper Display and Arduino UNO Pin Definitions<br><br>
 
 |E-paper Interface	|Arduino UNO|
@@ -163,6 +164,7 @@ Table 2-2 E-paper Display and Arduino UNO Pin Definitions<br><br>
 |DC	|D10|
 |RST	|D9|
 |BUSY	|D8|<br>
+
 Table 2-3 E-paper Display and Arduino UNO Pin Definitions<br>
 ### 2.3.2 Example Usage
 Open the project file /demo codes/Arduino_MEGA/Arduino_MEGA.ino or /demo codes/Arduino_UNO/Arduino_UNO.ino in the Arduino IDE. Select the correct Board and Port based on your setup. Click Verify, and once the verification is successful, upload it to the module. Observe the e-paper display.<br>
@@ -186,7 +188,7 @@ Open the example in the directory /demo codes/STM32 using Keil uVision5 software
 <br>
 ## 2.5 ESP32 Example Usage
 The example program uses the ESP32 module ESP32-WROOM-32E.<br>
-### 2.5.1 Hardware Interface Configuration
+### 2.5.1 Hardware Interface Configuration<br>
 |E-paper Interface	|ESP32 Interface|
 |----------------------|----------------|
 |VCC	|3.3V|
