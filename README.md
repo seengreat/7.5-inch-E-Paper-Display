@@ -213,13 +213,13 @@ You can use the image2lcd software for mode extraction. This software is provide
 4  Output grayscale: Select "Monochrome".<br>
 5  Maximum width and height: Choose "800" and "480", then click the arrow to confirm.<br>
 6  Ensure that none of the following 5 items are checked.<br>
- 
+ ![image](https://github.com/seengreat/7.5-inch-E-Paper-Display/blob/main/03.png )<br> 
 
 7  Color Inversion: Select according to the actual situation.<br>
 8  Click "Save" to store the converted array in a file with the ".c" extension. For an image with a resolution of 800 x 480 in pure black and white, a 48,000-byte image array will be generated.<br>
 9  Finally, replace the corresponding array in the example program code with the array from the ".c" file.<br>
 
-
+![image](https://github.com/seengreat/7.5-inch-E-Paper-Display/blob/main/04.png )<br> 
 
 
                                Image 2-2<br>
