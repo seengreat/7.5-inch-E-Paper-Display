@@ -199,7 +199,9 @@ The example program uses the ESP32 module ESP32-WROOM-32E.<br>
 |RST	|IO33|
 |BUSY	|IO13|
 <br>
+
 ### 2.5.2 Example Usage
+
 Open the project file "/demo codes /Arduino_ESP32" using the Arduino IDE. Select the correct Board and Port based on your setup. Click Verify, and once the verification is successful, upload it to the module and observe the e-paper display.<br>
 
 
