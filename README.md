@@ -199,26 +199,9 @@ The example program uses the ESP32 module ESP32-WROOM-32E.<br>
 |RST	|IO33|
 |BUSY	|IO13|
 <br>
-### 2.5.2 Example Usage<br>
+### 2.5.2 Example Usage
 Open the project file "/demo codes /Arduino_ESP32" using the Arduino IDE. Select the correct Board and Port based on your setup. Click Verify, and once the verification is successful, upload it to the module and observe the e-paper display.<br>
-## 2.6、Image Creation and Mode Extraction<br>
-### 2.6.1 Image Creation
-Create images with a resolution of 800 x 480 in pure black and white (grayscale is not supported). Save them as BMP or JPG files (BMP format is recommended). Due to limited memory on some MCU platforms, images may need to be smaller on these platforms, for example, 400 x 240 for Arduino.<br>
-### 2.6.2、Mode Extraction
-You can use the image2lcd software for mode extraction. This software is provided in the compressed package. To achieve the effect shown in Figure 2-2, follow the mode extraction parameter settings as shown in Figure 2-3:<br>
-1  Open the image that needs to be extracted.<br>
-2  Output data type: Select "C language array (*.c)".<br>
-3  Scanning method: Select "Horizontal scan".<br>
-4  Output grayscale: Select "Monochrome".<br>
-5  Maximum width and height: Choose "800" and "480", then click the arrow to confirm.<br>
-6  Ensure that none of the following 5 items are checked.<br>
- ![image](https://github.com/seengreat/7.5-inch-E-Paper-Display/blob/main/03.png )<br> 
-7  Color Inversion: Select according to the actual situation.<br>
-8  Click "Save" to store the converted array in a file with the ".c" extension. For an image with a resolution of 800 x 480 in pure black and white, a 48,000-byte image array will be generated.<br>
-9  Finally, replace the corresponding array in the example program code with the array from the ".c" file.<br>
-![image](https://github.com/seengreat/7.5-inch-E-Paper-Display/blob/main/04.png )<br> 
 
-Image 2-2<br>
 
 __Thank you for choosing the products of Shengui Technology Co.,Ltd. For more details about this product, please visit:
 www.seengreat.com__
