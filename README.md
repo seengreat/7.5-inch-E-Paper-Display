@@ -181,8 +181,8 @@ The example code is based on STM32F103C8T6.<br>
 |MOSI	|PB15|
 |DC	|PA8|
 |RST	|PA11|
-|BUSY	|PA12|
-<br>
+|BUSY	|PA12|<br>
+
 ### 2.4.2 Example Usage
 Open the example in the directory /demo codes/STM32 using Keil uVision5 software. After compiling without errors, download it to the module and observe the e-paper display.<br>
 ## 2.5 ESP32 Example Usage
