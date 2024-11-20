@@ -199,8 +199,8 @@ The example program uses the ESP32 module ESP32-WROOM-32E.<br>
 |RST	|IO33|
 |BUSY	|IO13|
 <br>
-### 2.5.2 Example Usage
-Open the project file /demo codes/Arduino_ESP32 using the Arduino IDE. Select the correct Board and Port based on your setup. Click Verify, and once the verification is successful, upload it to the module and observe the e-paper display.<br>
+### 2.5.2 Example Usage<br>
+Open the project file "/demo codes /Arduino_ESP32" using the Arduino IDE. Select the correct Board and Port based on your setup. Click Verify, and once the verification is successful, upload it to the module and observe the e-paper display.<br>
 ## 2.6、Image Creation and Mode Extraction<br>
 ### 2.6.1 Image Creation
 Create images with a resolution of 800 x 480 in pure black and white (grayscale is not supported). Save them as BMP or JPG files (BMP format is recommended). Due to limited memory on some MCU platforms, images may need to be smaller on these platforms, for example, 400 x 240 for Arduino.<br>
